@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  
+
   s.name         = 'R2Shared'
   s.version      = '1.4.1'
   s.license      = 'BSD 3-Clause License'
@@ -14,5 +14,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "10.0"
   s.frameworks   = 'MobileCoreServices'
-  
+  s.swift_version  = "5.0"
+
 end
